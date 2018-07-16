@@ -1,11 +1,11 @@
-package com.alexfu.sqlitequerybuilder;
+package com.alexfu.sqlitequerybuilder.real;
 
 import com.alexfu.sqlitequerybuilder.api.SQLiteQueryBuilder;
 import org.junit.Test;
 
 import java.sql.SQLException;
 
-import static com.alexfu.sqlitequerybuilder.utils.ConnectionUtils.tables;
+import static com.alexfu.sqlitequerybuilder.real.ConnectionUtils.tables;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public final class DropTableTest extends SQLiteTest {

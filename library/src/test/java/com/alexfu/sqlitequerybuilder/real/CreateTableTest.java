@@ -1,4 +1,4 @@
-package com.alexfu.sqlitequerybuilder;
+package com.alexfu.sqlitequerybuilder.real;
 
 import com.alexfu.sqlitequerybuilder.api.Column;
 import com.alexfu.sqlitequerybuilder.api.ColumnConstraint;
@@ -9,8 +9,8 @@ import org.junit.Test;
 
 import java.sql.SQLException;
 
-import static com.alexfu.sqlitequerybuilder.utils.ConnectionUtils.columns;
-import static com.alexfu.sqlitequerybuilder.utils.ConnectionUtils.tables;
+import static com.alexfu.sqlitequerybuilder.real.ConnectionUtils.columns;
+import static com.alexfu.sqlitequerybuilder.real.ConnectionUtils.tables;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public final class CreateTableTest extends SQLiteTest {

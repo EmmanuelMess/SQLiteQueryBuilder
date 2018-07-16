@@ -1,4 +1,4 @@
-package com.alexfu.sqlitequerybuilder;
+package com.alexfu.sqlitequerybuilder.real;
 
 import com.alexfu.sqlitequerybuilder.api.SQLiteQueryBuilder;
 import org.junit.Test;

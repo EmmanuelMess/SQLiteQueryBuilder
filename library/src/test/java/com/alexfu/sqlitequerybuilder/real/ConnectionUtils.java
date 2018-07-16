@@ -1,4 +1,4 @@
-package com.alexfu.sqlitequerybuilder.utils;
+package com.alexfu.sqlitequerybuilder.real;
 
 import java.sql.*;
 import java.util.ArrayList;

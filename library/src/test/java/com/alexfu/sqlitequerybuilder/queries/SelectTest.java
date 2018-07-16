@@ -1,4 +1,4 @@
-package com.alexfu.sqlitequerybuilder;
+package com.alexfu.sqlitequerybuilder.queries;
 
 import com.alexfu.sqlitequerybuilder.api.SQLiteQueryBuilder;
 import com.alexfu.sqlitequerybuilder.api.SelectType;
